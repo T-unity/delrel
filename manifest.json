@@ -1,0 +1,13 @@
+{
+  "name": "delrel",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "delete relation movies",
+  "content_scripts": [{
+    "run_at": "document_idle",
+    "matches": ["https://*.youtube.com/*"],
+    "js": [
+      "index.js"
+    ]
+  }]
+}
